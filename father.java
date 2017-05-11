@@ -8,10 +8,10 @@ public class father{
 	father m = new son();
 	father n = new father();
 	son x = new son();
-	//son y = new father();//father不能转换成son
+	//son y = new father();//father绫绘棤娉曚紶閫掔粰脡son 
 	//m.a();
 	//stranger s = new stanger();
-	//s=(stranger)x;//son不能转换成stranger
+	//s=(stranger)x;//son虏禄脛脺脳陋禄禄鲁脡stranger
 	stranger.a();//c
 	son l = (son)m;
 	l.a();//b
