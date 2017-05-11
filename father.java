@@ -29,9 +29,6 @@ class son extends father{
     }
 }
 class stranger{
-    father bb = new father();
-    
-    father hh = new son();
     public static void a(){
 	System.out.println("c");
 	
