@@ -31,6 +31,5 @@ class son extends father{
 class stranger{
     public static void a(){
 	System.out.println("c");
-	
     }
 }
