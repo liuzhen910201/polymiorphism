@@ -8,14 +8,14 @@ public class father{
 	father m = new son();
 	father n = new father();
 	son x = new son();
-	//son y = new father();//father类无法传递给Éson 
+	//son y = new father();//father类无法传递给son类 
 	//m.a();
 	//stranger s = new stanger();
-	//s=(stranger)x;//son²»ÄÜ×ª»»³Éstranger
+	//s=(stranger)x;//son无法传递给stranger 没有继承关系
 	stranger.a();//c
 	son l = (son)m;
 	l.a();//b
-	//son k= (son)n;//java.lang.ClassCastException:father cannot be cast to son
+	//son k= (son)n;//father类强制转换成son类 抛出异常：java.lang.ClassCastException:father cannot be cast to son
 	person tt= new person();
 	tt.a();//person
     }
