@@ -10,7 +10,7 @@ public class father{
 	son x = new son();
 	//son y = new father();//father类无法传递给son类 
 	//m.a();
-	//stranger s = new stanger();
+	stranger s = new stranger();
 	//s=(stranger)x;//son无法传递给stranger 没有继承关系
 	stranger.a();//c
 	son l = (son)m;
